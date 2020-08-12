@@ -2,16 +2,16 @@ html, body, #root {
   height: 100%;
 }
 body {
-  background: #333;
+  background: black;
   margin: 0;
   display: grid;
   padding: 3em;
-  place-items: center;
+  // place-items: center;
 }
 .boxes {
   display: grid;
   grid-gap: 2em;
-  grid-template-columns: repeat(2, minmax(350px, 1fr));
+  grid-template-columns: repeat(2, minmax(500px, 1fr));
   grid-template-rows: auto;
 }
 .box {

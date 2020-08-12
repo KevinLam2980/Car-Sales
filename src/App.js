@@ -12,7 +12,7 @@ const App = (props) => {
 
 
   return (
-    <div className="boxes">
+    <div className="tile is-child notification is-danger">
       <div className="box">
         <Header car={props.car} />
         <AddedFeatures car={props.car} removeFeature={props.removeFeature}/>
